@@ -11,8 +11,8 @@ public class KolkoKrzyzyk implements ActionListener {
     JPanel buttonsPanel = new JPanel();
     JLabel textField = new JLabel();
     JButton[] button = new JButton[9];
-    boolean player1Turn;
-    boolean winnerExists = false;
+    private boolean player1Turn;
+    private boolean winnerExists = false;
 
     KolkoKrzyzyk(){
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
